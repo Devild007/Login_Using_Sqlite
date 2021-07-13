@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:fontFamily="serif-monospace"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_18"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_five"
+            android:fontFamily="serif-monospace"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_14"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:fontFamily="serif-monospace"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_18"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_five"
+            android:fontFamily="serif-monospace"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_14"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:fontFamily="serif-monospace"
+            android:text="@string/mobile"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_18"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_five"
+            android:fontFamily="serif-monospace"
+            android:text="@string/mobile"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_14"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:fontFamily="serif-monospace"
+            android:text="@string/password"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_18"
+            android:typeface="monospace" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_five"
+            android:layout_marginBottom="@dimen/margin_twenty"
+            android:fontFamily="serif-monospace"
+            android:text="@string/password"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="@dimen/text_size_14"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutOne"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/space_illustration" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="@dimen/margin_forty"
+            android:layout_height="@dimen/margin_forty"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_forty"
+            android:background="@drawable/rounded_corner_button"
+            app:srcCompat="@drawable/power" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

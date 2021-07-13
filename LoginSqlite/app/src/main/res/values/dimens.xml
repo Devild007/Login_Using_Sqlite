@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/_16sdp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/_16sdp</dimen>
+    <dimen name="default_padding">@dimen/_10sdp</dimen>
+    <dimen name="padding_fifteen">@dimen/_15sdp</dimen>
+    <dimen name="padding_one">@dimen/_1sdp</dimen>
+    <dimen name="padding_two">@dimen/_2sdp</dimen>
+    <dimen name="padding_five">@dimen/_5sdp</dimen>
+    <dimen name="padding_eight">@dimen/_8sdp</dimen>
+
+    <dimen name="default_margin">@dimen/_10sdp</dimen>
+    <dimen name="default_fifteen">@dimen/_15sdp</dimen>
+    <dimen name="margin_twenty">@dimen/_20sdp</dimen>
+    <dimen name="margin_thirty">@dimen/_30sdp</dimen>
+    <dimen name="margin_forty">@dimen/_40sdp</dimen>
+    <dimen name="margin_fifty">@dimen/_50sdp</dimen>
+    <dimen name="edit_text_height">@dimen/_50sdp</dimen>
+    <dimen name="default_button_height">@dimen/_50sdp</dimen>
+
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+
+    <dimen name="dots_height">50sp</dimen>
+    <dimen name="dots_margin_bottom">@dimen/_30sdp</dimen>
+    <dimen name="nav_header_vertical_spacing">@dimen/_8sdp</dimen>
+    <dimen name="nav_header_height">@dimen/_176sdp</dimen>
+    <dimen name="fab_margin">@dimen/_16sdp</dimen>
+
+    <dimen name="slide_title">22sp</dimen>
+    <dimen name="slide_title_padding">10sp</dimen>
+    <dimen name="bottom_navigation_icon_size">@dimen/_20sdp</dimen>
+    <dimen name="field_height">@dimen/_40sdp</dimen>
+
+    <dimen name="view_height">@dimen/_1sdp</dimen>
+    <dimen name="bottom_cart_height">45dp</dimen>
+    <dimen name="logo_width">@dimen/_150sdp</dimen>
+    <dimen name="logo_height">@dimen/_150sdp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+
+</resources>

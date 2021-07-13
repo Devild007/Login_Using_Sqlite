@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.alimuzaffar.lib.widgets.AnimatedEditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_forty"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_twenty"
+            android:layout_marginTop="@dimen/_160sdp"
+            android:layout_marginEnd="@dimen/margin_twenty"
+            android:background="@drawable/rounded_corner_edit"
+            android:hint="@string/username_email"
+            android:inputType="textNoSuggestions"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_14"
+            app:animateCursor="true"
+            app:animateTextClear="true"
+            app:animationType="fromRight" />
+
+        <com.alimuzaffar.lib.widgets.AnimatedEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_forty"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_twenty"
+            android:background="@drawable/rounded_corner_edit"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorAccent"
+            android:imeOptions="actionDone"
+            android:textSize="@dimen/text_size_14"
+            app:animateCursor="true"
+            app:animateTextClear="true"
+            app:animationType="fromRight" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/space_illustration" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_forty"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_forty"
+            android:layout_below="@+id/btnSubmit"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/create_account"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
